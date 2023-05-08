@@ -5,6 +5,8 @@ A simple project for fulfilling requirement for
 
 In the project directory, you can run:
 
+### `yarn`
+
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -13,5 +15,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ##
 
 Initialized using
-[Create React App](https://facebook.github.io/create-react-app/docs/getting-started).
-[React.JS](https://reactjs.org/).
+[Create React App](https://facebook.github.io/create-react-app/docs/getting-started),
+[React.JS](https://reactjs.org/), [Typescript](https://www.typescriptlang.org/)
