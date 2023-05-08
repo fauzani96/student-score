@@ -13,10 +13,10 @@ function App() {
 
   const _data: IData[] = Array.from({length: 10}, (_, i) => ({
     name: `Mahasiswa ${i + 1}`,
-    aspek_penilaian_1: 0,
-    aspek_penilaian_2: 0,
-    aspek_penilaian_3: 0,
-    aspek_penilaian_4: 0,
+    aspek_penilaian_1: 1,
+    aspek_penilaian_2: 1,
+    aspek_penilaian_3: 1,
+    aspek_penilaian_4: 1,
   }))
 
   const [state, setState] = useState(_data)
@@ -109,9 +109,9 @@ function App() {
                           )}
                           className="select"
                         >
-                          {Array.from({length: 11}, (_, i) => (
-                            <option key={i} value={i}>
-                              {i}
+                          {Array.from({length: 10}, (_, i) => (
+                            <option key={i} value={i + 1}>
+                              {i + 1}
                             </option>
                           ))}
                         </select>
